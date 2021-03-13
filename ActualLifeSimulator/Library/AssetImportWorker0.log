@@ -1,0 +1,2053 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-eivin
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [2020128 18:20:55] Next license update check is after 2020-12-05T15:07:16
+
+
+LICENSE SYSTEM [2020128 18:20:55] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2019.4/staging' branch; Version is '2019.4.16f1 (e05b6e02d63e) revision 14703470'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'no' Physical Memory: 16314 MB
+[Licensing::Module] Serial number assigned to: "F4-WF39-379B-HEC9-SRHU-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/eivin/OneDrive/Skrivebord/Unity/ActualLifeSimulator
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+51643
+Successfully changed project path to: C:/Users/eivin/OneDrive/Skrivebord/Unity/ActualLifeSimulator
+C:/Users/eivin/OneDrive/Skrivebord/Unity/ActualLifeSimulator
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.16f1 (e05b6e02d63e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/eivin/OneDrive/Skrivebord/Unity/ActualLifeSimulator/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.5206
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002274 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.660 seconds
+Registering precompiled user dll's ...
+Registered in 0.094143 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1773 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.8 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2161.
+Total: 1.195100 ms (FindLiveObjects: 0.149300 ms CreateObjectMapping: 0.045100 ms MarkObjects: 0.932400 ms  DeleteObjects: 0.068100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/MenuCanvas.prefab
+  artifactKey: Guid(fa40cbf6972c11048a0e736b9b06cf40) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/MenuCanvas.prefab using Guid(fa40cbf6972c11048a0e736b9b06cf40) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/c72d32b765f8cff47aaf32f7d5b6c89b.asset.1.index for Assets/Prefabs/MenuCanvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/MenuCanvas.prefab' (target hash: 'd5d4ad66d5920437695529ec8ebed56a') in 0.069788 seconds
+  Import took 0.073529 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3ddd20174ad95bf44ab525ade8890698.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: 'c22a3eed0e276810e18d9414bc07cfb1') in 0.005310 seconds
+  Import took 0.008539 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/32eab62236b132a42abf7a18f3c70150.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: '50feb7b799a737cd14b0bdfa37aea87a') in 0.005231 seconds
+  Import took 0.008479 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/joystickCanvas.prefab
+  artifactKey: Guid(e471ea7c42812dc4b953a9eb887f3566) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/joystickCanvas.prefab using Guid(e471ea7c42812dc4b953a9eb887f3566) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7bddabd36f6f73546ada889025bc29a2.asset.1.index for Assets/Prefabs/joystickCanvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/joystickCanvas.prefab' (target hash: '9b49119468bbe1343776ebf7c747e528') in 0.005326 seconds
+  Import took 0.009052 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/be69b1135380c0542bb2161cc6ba4bad.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '0bbd2e3b380969cbd1426399a92e2486') in 0.005418 seconds
+  Import took 0.008827 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/GameManager.cs
+  artifactKey: Guid(330c2cff1a2e83340a44ef1ff05faa71) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/GameManager.cs using Guid(330c2cff1a2e83340a44ef1ff05faa71) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7c7ef23ec2ece3f4980f5ebb9ffa0e29.asset.1.index for Assets/GameManager.cs with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/GameManager.cs' (target hash: '9826070a8968b6efbfb18671c878e6c3') in 0.008385 seconds
+  Import took 0.011934 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/ExtraButtonCanvas.prefab
+  artifactKey: Guid(a2b9992880b72aa4981252c98a11ea0b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/ExtraButtonCanvas.prefab using Guid(a2b9992880b72aa4981252c98a11ea0b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/14682fa557babab44808968e0210ce47.asset.1.index for Assets/Prefabs/ExtraButtonCanvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/ExtraButtonCanvas.prefab' (target hash: '43a11f56573166f3741d7558151c509e') in 0.006758 seconds
+  Import took 0.010028 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Prefabs/RestCanvas.prefab
+  artifactKey: Guid(3627c285ae913124b997783bdf4cc4f5) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/RestCanvas.prefab using Guid(3627c285ae913124b997783bdf4cc4f5) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4cf56aed790d6244094395475d381d57.asset.1.index for Assets/Prefabs/RestCanvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/RestCanvas.prefab' (target hash: 'b49ad466d3192a4d86c1c68e2f0c2328') in 0.005381 seconds
+  Import took 0.008666 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002371 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Registering precompiled user dll's ...
+Registered in 0.088553 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2167.
+Total: 1.182000 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.038800 ms MarkObjects: 0.926000 ms  DeleteObjects: 0.065200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001952 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Registering precompiled user dll's ...
+Registered in 0.092518 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2173.
+Total: 1.289800 ms (FindLiveObjects: 0.176300 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.008500 ms  DeleteObjects: 0.064000 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001994 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Registering precompiled user dll's ...
+Registered in 0.088926 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2179.
+Total: 1.128300 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.036200 ms MarkObjects: 0.895800 ms  DeleteObjects: 0.061100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001951 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Registering precompiled user dll's ...
+Registered in 0.089618 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.856 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2185.
+Total: 1.126600 ms (FindLiveObjects: 0.130100 ms CreateObjectMapping: 0.032800 ms MarkObjects: 0.901800 ms  DeleteObjects: 0.061400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.175949 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b2e61b96d143c7b4aba6ea5c7e121c87.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: 'b6ff30e6038fbc51a0048abc7b7ed659') in 0.055622 seconds
+  Import took 0.059013 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.437617 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b600ef2df910fc840b9370d24eda669c.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: 'd19aead928d0c2d4f154050923330bd1') in 0.005319 seconds
+  Import took 0.008970 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.329578 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/aae8ec1328ddd5741ac80b2131dbeafd.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: '723688744ea133ea9a564527a587b1c7') in 0.004946 seconds
+  Import took 0.010258 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001890 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Registering precompiled user dll's ...
+Registered in 0.088158 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2191.
+Total: 1.155300 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.036100 ms MarkObjects: 0.925600 ms  DeleteObjects: 0.058700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.751291 seconds.
+  path: Assets/Prefabs/BusScreen.prefab
+  artifactKey: Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/BusScreen.prefab using Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d3e0395f0fbb8b447b812d2bd2c59287.asset.1.index for Assets/Prefabs/BusScreen.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/BusScreen.prefab' (target hash: '4ab77481e3b728f9ae03ad0876afb030') in 0.056103 seconds
+  Import took 0.060214 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.989882 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3d0fb275caa9a1a47a4e4242c386a0bd.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '4323889e582ae4e2e4effe33814c39b5') in 0.005281 seconds
+  Import took 0.008731 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.120838 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/fa35d5d492d25af43857167473843d47.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: '1a69ac8a5afad69669ba47a7e262155e') in 0.008002 seconds
+  Import took 0.011546 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.037507 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/bc7479615c22ab742b05317f8437b921.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: '141ac64c0ca395338e5e9a63e15601b8') in 0.004958 seconds
+  Import took 0.010198 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001906 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Registering precompiled user dll's ...
+Registered in 0.089153 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2197.
+Total: 1.154900 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.034800 ms MarkObjects: 0.927400 ms  DeleteObjects: 0.061600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.786192 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/16266092167cff14e8ae61e805c4fddf.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: '3c6582095f8828f20131f89e0f15c77a') in 0.056521 seconds
+  Import took 0.060051 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001889 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Registering precompiled user dll's ...
+Registered in 0.090252 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2203.
+Total: 1.203200 ms (FindLiveObjects: 0.132600 ms CreateObjectMapping: 0.034500 ms MarkObjects: 0.979300 ms  DeleteObjects: 0.056300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001919 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Registering precompiled user dll's ...
+Registered in 0.089628 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2209.
+Total: 1.203200 ms (FindLiveObjects: 0.142100 ms CreateObjectMapping: 0.037000 ms MarkObjects: 0.962900 ms  DeleteObjects: 0.060900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.104367 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6f58d6125deeae042a322d45406e77c5.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: 'a363a65473e55b1815c5da4e08286b11') in 0.056085 seconds
+  Import took 0.059670 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002242 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.166 seconds
+Registering precompiled user dll's ...
+Registered in 0.090274 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2215.
+Total: 1.123700 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.035900 ms MarkObjects: 0.895100 ms  DeleteObjects: 0.059000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.263735 seconds.
+  path: Assets/Prefabs/BusScreen.prefab
+  artifactKey: Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/BusScreen.prefab using Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/0248a13896d1882409ffd46151fb4ea8.asset.1.index for Assets/Prefabs/BusScreen.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/BusScreen.prefab' (target hash: '2cb04645bcb201ce1af0b2b56c281c27') in 0.055899 seconds
+  Import took 0.060015 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.528006 seconds.
+  path: Assets/Prefabs/BusScreen.prefab
+  artifactKey: Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/BusScreen.prefab using Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d43c241546089d6448a1c901fc685356.asset.1.index for Assets/Prefabs/BusScreen.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/BusScreen.prefab' (target hash: 'ee36216e825b6b9ff0e2be1da6cd79c1') in 0.005437 seconds
+  Import took 0.009083 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.705909 seconds.
+  path: Assets/Prefabs/BusScreen.prefab
+  artifactKey: Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/BusScreen.prefab using Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/590cd6841e4ceec4590d6472b6a7f329.asset.1.index for Assets/Prefabs/BusScreen.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/BusScreen.prefab' (target hash: '99878b1bb2ca9339b1aea25fe1d8c357') in 0.006022 seconds
+  Import took 0.009717 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.738627 seconds.
+  path: Assets/Prefabs/BusScreen.prefab
+  artifactKey: Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/BusScreen.prefab using Guid(753a695d29de95f44ae06c6cc2bcbfe8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ccce83a73028b8947aa7488a27a2aefc.asset.1.index for Assets/Prefabs/BusScreen.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/BusScreen.prefab' (target hash: 'dd5b04c877537975671029077d3eddb2') in 0.004844 seconds
+  Import took 0.008120 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.800691 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a216a4d573d53504b8a4271ea3074297.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: 'ea2461b2f782973c3b141d653d912649') in 0.005228 seconds
+  Import took 0.008265 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.496270 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a029b0364f8316f458e5318b6b26ae1a.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: 'e788d990acce285a10b764e3a023f4c2') in 0.005395 seconds
+  Import took 0.010646 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001960 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Registering precompiled user dll's ...
+Registered in 0.089708 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2221.
+Total: 1.204300 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.044300 ms MarkObjects: 0.913900 ms  DeleteObjects: 0.052600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.347319 seconds.
+  path: Assets/Scripts/busScript.cs
+  artifactKey: Guid(8edc83d9ee522a54fad5f45954f1d67c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/busScript.cs using Guid(8edc83d9ee522a54fad5f45954f1d67c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/45f1c4e58b0e8ff42b935b487359cbb2.asset.1.index for Assets/Scripts/busScript.cs with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scripts/busScript.cs' (target hash: 'ed694cd9a7c20a9dc0fd0b69ac8dd222') in 0.055500 seconds
+  Import took 0.059758 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001868 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Registering precompiled user dll's ...
+Registered in 0.089797 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 1.220900 ms (FindLiveObjects: 0.138400 ms CreateObjectMapping: 0.036400 ms MarkObjects: 0.985600 ms  DeleteObjects: 0.060000 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001913 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Registering precompiled user dll's ...
+Registered in 0.088498 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.6 MB.
+System memory in use after: 46.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2233.
+Total: 1.119400 ms (FindLiveObjects: 0.138200 ms CreateObjectMapping: 0.037400 ms MarkObjects: 0.885200 ms  DeleteObjects: 0.058200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.344738 seconds.
+  path: Assets/Scripts/busScript.cs
+  artifactKey: Guid(8edc83d9ee522a54fad5f45954f1d67c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/busScript.cs using Guid(8edc83d9ee522a54fad5f45954f1d67c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/952a871fb4d9e7541b802693b7715524.asset.1.index for Assets/Scripts/busScript.cs with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scripts/busScript.cs' (target hash: '158828a2bc770a8f4e6cfe1d9135beea') in 0.055438 seconds
+  Import took 0.058993 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.319509 seconds.
+  path: Assets/Scripts/busScript.cs
+  artifactKey: Guid(8edc83d9ee522a54fad5f45954f1d67c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/busScript.cs using Guid(8edc83d9ee522a54fad5f45954f1d67c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3bd5094742c717049a52de25bb847be6.asset.1.index for Assets/Scripts/busScript.cs with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scripts/busScript.cs' (target hash: '0903c18a2b2afea0d6a2e7fb39388fdd') in 0.005497 seconds
+  Import took 0.008828 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001873 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Registering precompiled user dll's ...
+Registered in 0.086460 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.352 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.6 MB.
+System memory in use after: 46.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2239.
+Total: 1.302100 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.065000 ms  DeleteObjects: 0.058100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001920 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Registering precompiled user dll's ...
+Registered in 0.090196 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.6 MB.
+System memory in use after: 46.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2245.
+Total: 1.228100 ms (FindLiveObjects: 0.135700 ms CreateObjectMapping: 0.035300 ms MarkObjects: 0.996000 ms  DeleteObjects: 0.060700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.329993 seconds.
+  path: Assets/InfoTextObject.prefab
+  artifactKey: Guid(84ae10d757d2dba45b260b7c3afc95f8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/InfoTextObject.prefab using Guid(84ae10d757d2dba45b260b7c3afc95f8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9d806808938b1f54f94a793c35677ece.asset.1.index for Assets/InfoTextObject.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/InfoTextObject.prefab' (target hash: '899248bf612206b780b8ed2d342309a2') in 0.056978 seconds
+  Import took 0.060353 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.902040 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/fe0971ae28957db4b91878fe940cb6af.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '1d921e54f5e07d470c62774b2b757726') in 0.005410 seconds
+  Import took 0.013393 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001926 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Registering precompiled user dll's ...
+Registered in 0.092925 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.496 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.6 MB.
+System memory in use after: 46.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 1.154200 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.036400 ms MarkObjects: 0.918900 ms  DeleteObjects: 0.056900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.3 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 1.268300 ms (FindLiveObjects: 0.238500 ms CreateObjectMapping: 0.042000 ms MarkObjects: 0.920900 ms  DeleteObjects: 0.066500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.397983 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d01c34c3734b5624b84110fb87277b0f.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: '8199b9b93225ab93670adf4b24c637a7') in 0.055163 seconds
+  Import took 0.059178 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.618554 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ac0839d6cf3a5e24285008c81ad3b4e2.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '726bc6415d518944f8bbaeff4295e43f') in 0.006532 seconds
+  Import took 0.010215 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.216159 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/859bf22eadbaf23468d7f1b2c7171457.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '7d029482277d80f01e35e43cc8a5c510') in 0.005076 seconds
+  Import took 0.009038 seconds.
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 1.273400 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.008400 ms  DeleteObjects: 0.081300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 331.333134 seconds.
+  path: Assets/Pictures/pixil-frame-1.png
+  artifactKey: Guid(0112fa4a1152ea84c907ea0db50572ca) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Pictures/pixil-frame-1.png using Guid(0112fa4a1152ea84c907ea0db50572ca) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/71ed2f45b701fee4483c469085b14960.asset.1.index for Assets/Pictures/pixil-frame-1.png with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Pictures/pixil-frame-1.png' (target hash: '15c6353f68624342fe45425a95713638') in 0.038290 seconds
+  Import took 0.042447 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.088000 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1efaa264395cd0f4da6bd4e4733320f3.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '1668ca2f9c0e67e3929aa0ee938e5508') in 0.005053 seconds
+  Import took 0.008324 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001968 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.561 seconds
+Registering precompiled user dll's ...
+Registered in 0.089148 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.526 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.6 MB.
+System memory in use after: 46.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 1.156300 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.034200 ms MarkObjects: 0.926200 ms  DeleteObjects: 0.060300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.824758 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9e9bb83b1ed02d94091290f841c1c364.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: '9a3c6480214ab144fbf086a2022898c1') in 0.056539 seconds
+  Import took 0.059738 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.634441 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/964d8ca89e2fdc146bbee5a8fbd7a903.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: '7c672bccaad4de5d85ed7720154adb09') in 0.005336 seconds
+  Import took 0.009234 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.075246 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e9db720f65b587c4a9e7fde8fc473fe7.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: 'ea4c973feb583ce016c1b6992e2967f3') in 0.005749 seconds
+  Import took 0.010045 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.686836 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4bd77df57c3cff143b4c200b1f9010c0.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '3e77d9e22af373fbe73150cb74620770') in 0.006271 seconds
+  Import took 0.009382 seconds.
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 1.476200 ms (FindLiveObjects: 0.147800 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.210300 ms  DeleteObjects: 0.062200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001880 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Registering precompiled user dll's ...
+Registered in 0.091508 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.6 MB.
+System memory in use after: 46.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 1.231000 ms (FindLiveObjects: 0.149800 ms CreateObjectMapping: 0.037300 ms MarkObjects: 0.975700 ms  DeleteObjects: 0.067500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 316.326769 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7f981534506e1cd4691cdfa33a88140e.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '593d36c86ec2c2fbf15b3934d764fd59') in 0.058098 seconds
+  Import took 0.061578 seconds.
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 1.379600 ms (FindLiveObjects: 0.158700 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.116900 ms  DeleteObjects: 0.061200 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 1.406400 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.163700 ms  DeleteObjects: 0.061400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.350012 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/29502797a60ede7439cb35348ce474a6.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: 'ca4e69ab74d9cfb83c0dd0bd0d973ea4') in 0.005585 seconds
+  Import took 0.008865 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.014705 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d990ca2cb6417224090d35faad2a5b6b.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '3698997d4e684d549e7a24922e9d3dd8') in 0.005287 seconds
+  Import took 0.008741 seconds.
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 1.281400 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.030100 ms  DeleteObjects: 0.063500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.629546 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ccd64f41c54f3584d962e563ba7b1223.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '4720931f6d88dbd90943be442918ac98') in 0.005403 seconds
+  Import took 0.009025 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.074838 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/043ef2e7f67938549bf016c1424c1676.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '7abb8e7670a5429f8f9a12e887fb4a5c') in 0.005269 seconds
+  Import took 0.008875 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001944 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.671 seconds
+Registering precompiled user dll's ...
+Registered in 0.088861 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.6 MB.
+System memory in use after: 46.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 1.303000 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.080200 ms  DeleteObjects: 0.058100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.273287 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2c39afb60b6bb954ab8bb4398adb0494.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '110e9a42fdd726386c9e5859187386bb') in 0.056494 seconds
+  Import took 0.059813 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.029543 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ed0a9d927cbfbd943aaaada43dc233d4.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: 'bcf569c8358dda9d2ce25a622397c148') in 0.005158 seconds
+  Import took 0.008871 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001931 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Registering precompiled user dll's ...
+Registered in 0.086459 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.7 MB.
+System memory in use after: 46.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 1.120200 ms (FindLiveObjects: 0.136800 ms CreateObjectMapping: 0.034200 ms MarkObjects: 0.890900 ms  DeleteObjects: 0.058000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.718349 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/02b48a73f2b141a4b9b4e32001752073.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '892fe16456f2f5c330cdac82ac4ced36') in 0.054525 seconds
+  Import took 0.058012 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.404746 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a492344012c12414dab04f6d9aab240f.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '2fbc998164954cb22dbd927e7ae32f2b') in 0.005692 seconds
+  Import took 0.009569 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.586534 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/fcc281027cdb6314e83f932707121129.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: '5a266c1b5cf9dabacaf4319b8a476892') in 0.005220 seconds
+  Import took 0.008641 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.939961 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7dec4138d162b754a90e5b9e7d10c745.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: 'eca2446c7d9fc0e683a51862938eaeb1') in 0.006332 seconds
+  Import took 0.010025 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.892919 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b1adb93913bf7a348a94a4db14a5ca41.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '36455fa6ec363a9ccc08f9de5cfcb358') in 0.005064 seconds
+  Import took 0.008573 seconds.
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 1.501600 ms (FindLiveObjects: 0.143300 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.257600 ms  DeleteObjects: 0.062500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.805269 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3fcaffc25b1e7dc42ac656badda1427e.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '27c382d4d0fe07e690bc421263b72331') in 0.005299 seconds
+  Import took 0.008731 seconds.
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 1.370600 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.083300 ms  DeleteObjects: 0.066300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.698156 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a117180be6604ea4d9fbbad2dfbaa098.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: '61b13240237aeb7d5df3ae38441eefec') in 0.005371 seconds
+  Import took 0.009042 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.765406 seconds.
+  path: Assets/Prefabs/joystickCanvas.prefab
+  artifactKey: Guid(e471ea7c42812dc4b953a9eb887f3566) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/joystickCanvas.prefab using Guid(e471ea7c42812dc4b953a9eb887f3566) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e14c4d051a1df054f91f35564d364d26.asset.1.index for Assets/Prefabs/joystickCanvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/joystickCanvas.prefab' (target hash: '8a8f9253bb32048ea538f75e656cabb4') in 0.005778 seconds
+  Import took 0.008888 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.014618 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e1ea0bda6b905f94c8b95ad6e2a27060.asset.1.index for Assets/Scenes/Scene 1.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 1.unity' (target hash: '84f7db839e17d4e900fd5c1ddb21c4f0') in 0.005141 seconds
+  Import took 0.008116 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.138634 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/81cc05e48ef7abf4e9ca37c687c01e31.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: 'da510d61e6fcdbf1b7e735be8890315a') in 0.006119 seconds
+  Import took 0.009415 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.164756 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/92363d27ce6e89f4190dce4f536645c2.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: '1c87bd24b8f229e7bc791b20ae38c5d8') in 0.005244 seconds
+  Import took 0.008681 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.702461 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ccb8c4bd1316f9543ba43d9da4c7d08c.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: 'a6c8cd74acdf594dae31e116ff76de4d') in 0.006654 seconds
+  Import took 0.009912 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001971 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.825 seconds
+Registering precompiled user dll's ...
+Registered in 0.089196 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.7 MB.
+System memory in use after: 46.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 1.212000 ms (FindLiveObjects: 0.158900 ms CreateObjectMapping: 0.040200 ms MarkObjects: 0.941800 ms  DeleteObjects: 0.070400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.349078 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/945de05a39aa0324cb30ff31d43330ae.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: '8753ee16351555bec4ea3f80996e5ed4') in 0.054668 seconds
+  Import took 0.058210 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.223983 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 3.unity using Guid(c32dab4f2abc0af46a9ea393c0d8b840) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/dffc0ab9d2dc1de4c8c0fffc097cc1c6.asset.1.index for Assets/Scenes/Scene 3.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 3.unity' (target hash: 'a65f6d229e0407a78b43a891498c8295') in 0.005195 seconds
+  Import took 0.009933 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.625019 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Scene 2.unity using Guid(f7cf1faa0a2b7394883fea8d4b8a8bb3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/955a7fdf5a007544ea61b99c2338453b.asset.1.index for Assets/Scenes/Scene 2.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <7d90b28560b644ce87b8263efcc36eed>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Scene 2.unity' (target hash: '31a54848e92f00e0cb452b8ec6aaeb93') in 0.005018 seconds
+  Import took 0.010123 seconds.
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 1.239900 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.040400 ms MarkObjects: 0.977100 ms  DeleteObjects: 0.066400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001962 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.982 seconds
+Registering precompiled user dll's ...
+Registered in 0.099753 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.7 MB.
+System memory in use after: 46.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 1.240800 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.040800 ms MarkObjects: 0.955000 ms  DeleteObjects: 0.079300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001941 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.033 seconds
+Registering precompiled user dll's ...
+Registered in 0.096169 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.7 MB.
+System memory in use after: 46.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 1.257600 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.068200 ms MarkObjects: 0.948800 ms  DeleteObjects: 0.066300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.173700 ms (FindLiveObjects: 0.479200 ms CreateObjectMapping: 0.055900 ms MarkObjects: 1.561100 ms  DeleteObjects: 0.076800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.040900 ms (FindLiveObjects: 0.448900 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.468000 ms  DeleteObjects: 0.078000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 1.964900 ms (FindLiveObjects: 0.421400 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.427100 ms  DeleteObjects: 0.072200 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.395700 ms (FindLiveObjects: 0.553800 ms CreateObjectMapping: 0.114500 ms MarkObjects: 1.647700 ms  DeleteObjects: 0.079300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 1.994200 ms (FindLiveObjects: 0.428000 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.455000 ms  DeleteObjects: 0.067200 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.060600 ms (FindLiveObjects: 0.466500 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.469600 ms  DeleteObjects: 0.070900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
